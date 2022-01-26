@@ -60,6 +60,8 @@ body {
   min-height: 18.75rem;
   height: auto;
   background-image: none;
+  opacity:0.5;
+  transition: background-color ease-in-out 0.3s;
 }
 .color-image:hover {
   background-image: url("images/icon-view.svg");
